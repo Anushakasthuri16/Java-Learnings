@@ -1,0 +1,13 @@
+package _7_Control_Construct;
+
+import java.util.Scanner;
+
+public class SimpleIf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Enter your marks: ");
+Scanner scan=new Scanner()
+	}
+
+}

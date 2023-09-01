@@ -1,0 +1,16 @@
+package _30_;
+
+public class subclass {
+public void Palindrome(int n)
+{
+	int rev=0;
+	while(n>0)
+	{
+		int rem=n%10;   //121
+		rev=rem;
+		n=n/10;
+		System.out.print(rem);
+}
+
+}
+}

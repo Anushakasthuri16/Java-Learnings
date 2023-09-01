@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;_21_WrapperClass.CharactorIdentifier.java&apos; to &apos;Main.java&apos;&#x0D;&#x0A;- Original project: &apos;_21_WrapperClass&apos;&#x0D;&#x0A;- Original element: &apos;_21_WrapperClass.CharactorIdentifier.java&apos;&#x0D;&#x0A;- Renamed element: &apos;_21_WrapperClass.Main.java&apos;" description="Rename compilation unit &apos;CharactorIdentifier.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;_21_WrapperClass{CharactorIdentifier.java" name="Main.java" references="false" stamp="1693543988519" version="1.0"/>
+</session>

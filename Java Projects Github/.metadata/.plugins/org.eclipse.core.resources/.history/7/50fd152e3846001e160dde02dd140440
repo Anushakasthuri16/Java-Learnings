@@ -1,0 +1,26 @@
+package _35_Power_Of_Digits;
+
+public class Power {
+	 public int Powerdigit( int num)
+	 {
+	
+		
+		public int n=1;
+		for(int i=1;
+		i<=CountDigit;i++)
+		{
+			n=n*num;
+		}
+	
+		return n;
+	}
+	public int CountDigit(num)
+	
+	{
+		int count=0;
+		num=num/10;
+		count++;
+	}
+	return count;
+
+}

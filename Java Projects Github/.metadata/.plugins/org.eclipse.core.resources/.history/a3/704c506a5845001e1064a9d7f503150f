@@ -1,0 +1,48 @@
+package _27_Fibonacci_Series;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter number: ");
+		int n = scan.nextInt();
+		
+		printFibonacciSeries(n);
+		
+	}
+public static void printFibonacciSeries(int n)
+{
+
+	
+	int num1=0;
+	int num2=1;
+	if (n==1)
+	{
+		System.out.println(num1);
+		
+	}
+	else if(n==2)
+	{
+	System.out.println(num1+ " " +num2);	
+	}
+	else
+	{
+	System.out.print(" "+num1 + " "+num2+" ");
+	for (int i=0;i<n-2;i++)
+	{
+		
+	
+		int num=num1+num2;
+		
+		
+		num1=num2;
+		num2=num;;
+		
+	}
+	System.out.print(num2+ " ");
+	}
+}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;_20_Vending_Machine_Stimulator.VendingMachineStimulator&apos; to &apos;Main&apos;&#x0D;&#x0A;- Original project: &apos;_20_Vending_Machine_Stimulator&apos;&#x0D;&#x0A;- Original element: &apos;_20_Vending_Machine_Stimulator.VendingMachineStimulator&apos;&#x0D;&#x0A;- Renamed element: &apos;_20_Vending_Machine_Stimulator.Main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;VendingMachineStimulator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;_20_Vending_Machine_Stimulator{VendingMachineStimulator.java[VendingMachineStimulator" matchStrategy="1" name="Main" qualified="false" references="true" similarDeclarations="false" stamp="1693544248807" textual="false" version="1.0"/>
+</session>

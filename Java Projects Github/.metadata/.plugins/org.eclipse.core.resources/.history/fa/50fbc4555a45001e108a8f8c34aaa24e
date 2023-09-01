@@ -1,0 +1,10 @@
+package _29_Sum_Of_Digits_Calculator;
+
+public class SumOfDigitsCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

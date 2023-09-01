@@ -1,0 +1,56 @@
+package _35_Amstrong_Number;
+
+public class Amstrong {
+	int amsnum(int n)
+	{
+		
+		while(n>0)
+		{
+		
+			int cube=1;
+			for (int i=1;i<n;i++)
+			{
+				int ld=n%10;
+				cube=cube*n;
+				n=n/10;
+				
+			}
+			
+		}
+		return n;
+		
+	
+	}
+	int raiseToPowerN(int num,int power)
+
+	{
+
+	int finalresult=1;
+
+	for(int i=1;i<=power;i++)
+
+	{
+
+	finalresult=finalresult*num;
+
+	}
+
+	return finalresult;
+
+	}
+	int sumofdigits(int res)
+	{
+		int sum=0;
+		while(res>0)
+		{
+			int rem=res%10;  //123
+			sum=sum+rem;
+			res=res/10;
+		}
+	
+	
+		return sum;
+	}
+	
+
+}

@@ -1,0 +1,10 @@
+package _31_Power_Of_Two;
+
+public class PowerOfTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

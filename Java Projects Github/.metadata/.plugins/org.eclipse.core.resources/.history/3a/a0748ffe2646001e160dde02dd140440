@@ -1,0 +1,10 @@
+package _32_Count_Of_Number;
+
+public class CountTheNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

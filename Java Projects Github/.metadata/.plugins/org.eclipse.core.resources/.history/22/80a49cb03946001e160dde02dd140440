@@ -1,0 +1,39 @@
+package _35_Power_Of_Digits;
+
+public class Power {
+	 
+	 
+		  public int raiseToPowerN(int num,int n)
+
+		 {
+
+		 int finalresult=1;
+
+		 for(int i=1;i<=n;i++)
+
+		 {
+
+		 finalresult=finalresult*num;
+
+		 }
+		 
+
+		 return finalresult;
+	 }
+		
+		 public void CountNumber(int num)
+			{
+				int count=0;
+				
+				int i=1;
+				while(num!=0)
+				{
+					
+					num=num/10;
+					count++;
+				}
+				System.out.println(count);
+			}
+
+}
+

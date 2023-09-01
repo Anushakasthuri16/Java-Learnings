@@ -1,0 +1,8 @@
+package _30_;
+
+public class subclass {
+public void method(int n)
+{
+	
+}
+}

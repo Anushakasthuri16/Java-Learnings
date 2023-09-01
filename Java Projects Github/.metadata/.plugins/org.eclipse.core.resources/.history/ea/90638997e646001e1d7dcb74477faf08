@@ -1,0 +1,26 @@
+package _35_Amstrong_Number;
+
+public class Amstrong {
+	int amsnum(int n)
+	{
+		
+		while(n>0)
+		{
+		
+			int cube=1;
+			for (int i=1;i<n;i++)
+			{
+				int ld=n%10;
+				cube=cube*n;
+				n=n/10;
+				
+			}
+			
+		}
+		return n;
+		
+	
+	}
+	
+
+}
