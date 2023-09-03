@@ -9,7 +9,7 @@ public class Pattern_G {
 		{
 			for(int j=1;j<=n;j++)
 			{
-			if((j==1&&(i>1&&i<n))||((i==n||i==1)&&(j>1 && j<n))||(j==n&&i>n/2)||(i==n/2+1&&j>n/2))
+			if((j==1&&(i>1&&i<n))||((i==n||i==1)&&(j>1 && j<n))||(j==n&&(i>n/2&&i!=n)||(i==n/2+1&&j>n/2))
 					
 				{
 				System.out.print("*");
