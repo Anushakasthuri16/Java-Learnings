@@ -9,7 +9,7 @@ public class Pattern_D {
 		{
 			for(int j=1;j<=n;j++)
 			{
-				if(j==1||(i==1||i==n)||(j==n&&(i!=1 && i!=n)))
+				if(j==1||((i==1||i==n)&&(j>1 && j<n))||(j==n&&(i>1 && i<n)))
 				{
 				System.out.print("*");
 				}
