@@ -8,7 +8,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Enter number: ");
-		int num = scan.nextInt();
+		int num = scan.nextInt(num);
 		printTable();
 	}
 	public static void printTable(int num)
