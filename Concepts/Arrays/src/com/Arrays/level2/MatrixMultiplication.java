@@ -63,9 +63,9 @@ public class MatrixMultiplication {
 		int sum=0;
 		for(int i=0;i<=m;i++)  //rows 
 		{
-			for (int j=0;j<=n1;j++)    //columns
+			for (int j=0;j<=m;j++)    //columns
 			{
-				for (int k=0;k<=n;k++)    //columns
+				for (int k=0;k<=m;k++)    //columns
 				{
 					sum=sum+(arr[i][j]*arr1[i][j]);
 				}
