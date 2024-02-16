@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ANUSHA KASTHURI\OneDrive\Desktop\hibernate\SpringAutoWiring"/>
+			<item value="C:\Users\ANUSHA KASTHURI\OneDrive\Desktop\hibernate\SpringProject3ListSetMap\src\main\java\com\example\spring\SpringProject3ListSetMap\App.java"/>
+			<item value="C:\Users\ANUSHA KASTHURI\OneDrive\Desktop\hibernate\SpringProject1\src\main\java\com\example\spring\SpringProject1\App.java"/>
+			<item value="C:\Users\ANUSHA KASTHURI\OneDrive\Desktop\hibernate\Demo1"/>
+			<item value="C:\Users\ANUSHA KASTHURI\OneDrive\Desktop\hibernate\Practice\src\main\java\com\example\Practice\App.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.example.spring.wiringUsingAnnotations"/>
+			<item value="com.example.spring.SpringAutoWiring"/>
+			<item value="com.example.spring.Wiring"/>
+			<item value="com.example.spring.SpringProject3ListSetMap"/>
+			<item value="com.example.spring.SpringProject2Laptop"/>
+			<item value="com.example.spring.SpringProject1"/>
+			<item value="com.example.Bi.OneToMany"/>
+			<item value="com.example.Bi.BiDirectional"/>
+			<item value="com.example.Refer"/>
+			<item value="com.example.Example2"/>
+			<item value="com.example.Example"/>
+			<item value="com.example.Practice"/>
+			<item value="com.example.HibernateProject1"/>
+			<item value="com.hibernate.Demo1"/>
+		</list>
+		<list key="groupId">
+			<item value="com.example.spring"/>
+			<item value="com.example.Bi"/>
+			<item value="com.example"/>
+			<item value="com.hibernate"/>
+		</list>
+		<list key="artifactId">
+			<item value="wiringUsingAnnotations"/>
+			<item value="SpringAutoWiring"/>
+			<item value="Wiring"/>
+			<item value="SpringProject3ListSetMap"/>
+			<item value="SpringProject2Laptop"/>
+			<item value="SpringProject1"/>
+			<item value="OneToMany"/>
+			<item value="BiDirectional"/>
+			<item value="Refer"/>
+			<item value="Example2"/>
+			<item value="Example"/>
+			<item value="Practice"/>
+			<item value="HibernateProject1"/>
+			<item value="Demo1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

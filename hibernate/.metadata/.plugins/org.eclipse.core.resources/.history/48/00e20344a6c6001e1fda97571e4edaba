@@ -1,0 +1,12 @@
+package com.example.spring.SpringProject3ListSetMap;
+
+import java.util.*;
+
+public class Employee {
+	List<String> technology;
+	Set<String> project;
+	Map<String,tring> company;
+	
+	
+
+}

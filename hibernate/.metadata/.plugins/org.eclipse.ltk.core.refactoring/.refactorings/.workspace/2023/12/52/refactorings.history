@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Refer&apos; to &apos;OneToOne&apos;" description="Rename resource &apos;Refer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Refer" name="OneToOne" stamp="1703833996856" updateReferences="true"/>
+</session>

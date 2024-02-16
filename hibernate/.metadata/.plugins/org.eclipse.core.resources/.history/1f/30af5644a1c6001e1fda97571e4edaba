@@ -1,0 +1,14 @@
+package com.example.spring.SpringProject2Laptop;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ClassPathXmlApplicationContext ctx=new ClassPathXmlApplicationContext("lp");
+        System.out.println( "Hello World!" );
+    }
+}

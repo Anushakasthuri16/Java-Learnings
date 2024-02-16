@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  
+<bean class="com.example.spring.SpringAutoWiring.car" id="car1" autowire="byName">
+-->
+
+<bean class="com.example.spring.SpringAutoWiring.car" id="car1" autowire="byType">	
+	
+</bean>
+<bean class="com.example.spring.SpringAutoWiring.Engine" id="eng">
+	<property name="engNo" value="23"></property>
+	<property name="engType" value="asdfg"></property>
+	
+</bean>
+<!--
+<bean class="com.example.spring.SpringAutoWiring.Engine" id="eng2">
+	<property name="engNo" value="24"></property>
+	<property name="engType" value="cvbnm"></property>
+
+</bean>
+-->
+
+
+</beans>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean class="com.example.spring.SpringProject1.Student" id="st">
+	<property name="roll" value="13"></property>
+	<property name="name" value="sumit"></property>
+	<property name="age" value="22"></property>
+</bean>
+<bean class="com.example.spring.SpringProject1.JavaTeacher" id="jvt">
+	<property name="roll" value="13"></property>
+	<property name="name" value="sumit"></property>
+	<property name="age" value="22"></property>
+</bean>
+<bean class="com.example.spring.SpringProject1.SqlTeacher" id="sqt">
+	<property name="roll" value="13"></property>
+	<property name="name" value="sumit"></property>
+	<property name="age" value="22"></property>
+</bean>
+<bean class="com.example.spring.SpringProject1.PythonTeacher" id="pyt">
+	<property name="roll" value="13"></property>
+	<property name="name" value="sumit"></property>
+	<property name="age" value="22"></property>
+</bean>
+</beans>

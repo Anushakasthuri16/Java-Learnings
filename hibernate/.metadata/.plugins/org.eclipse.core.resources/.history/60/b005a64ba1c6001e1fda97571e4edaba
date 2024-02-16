@@ -1,0 +1,17 @@
+package com.example.spring.SpringProject2Laptop;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ClassPathXmlApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
+    	Laptop lpObj=(Laptop)ctx.getBean("lp");
+        System.out.println( "Hello World!" );
+    }
+}

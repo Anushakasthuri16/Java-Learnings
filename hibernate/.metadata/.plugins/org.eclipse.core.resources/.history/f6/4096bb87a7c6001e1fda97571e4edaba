@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- setter injection -->
+<bean id="lt1" class="com.example.spring.SpringProject2Laptop.Laptop">
+<property name="sNo">
+<list>
+	<value>Java</value>
+	<value>Python</value>
+	<value>SQL</value>
+</list>
+</property>
+<property name="brand">
+<set>
+	<value>Project1</value>
+	<value>Project2</value>
+	<value>Project3</value>
+</set>
+</property>
+<property name="cost"></property>
+</bean>
+</beans>

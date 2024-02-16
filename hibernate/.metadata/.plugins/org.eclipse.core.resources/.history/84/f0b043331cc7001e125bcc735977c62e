@@ -1,0 +1,17 @@
+package com.example.spring.SpringAutoWiring;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ClassPathXmlApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
+    	Engine eg=(Engine)ctx.getBean("Eg1");
+        System.out.println(eg);
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean name="com.example.spring.Wiring.Employee" id="e">
+	<property name="empId" value="23"></property>
+	<property name="empName" value="Anu"></property>
+	<property name="empSalary" value="30000"></property>
+</bean>
+<bean name="com.example.spring.Wiring.CompanyXYZ" id="e">
+	<property name="ep" value="e"></property>
+	
+</bean>
+
+</beans>

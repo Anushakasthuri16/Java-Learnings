@@ -1,0 +1,8 @@
+package com.example.spring.SpringAutoWiring;
+
+public class Engine {
+	int engNo;
+	String engType;
+	
+
+}
